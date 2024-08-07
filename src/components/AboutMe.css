@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* About Me Page Styling */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.about-me-content {
+  max-width: 800px;
+  text-align: left;
+  background-color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+.about-me-content p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.about-me-content ul {
+  list-style-type: disc;
+  margin: 1rem 0 1.5rem 2rem;
+}
+
+.about-me-content ul li {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.about-me-content strong {
+  color: #61dafb;
+}

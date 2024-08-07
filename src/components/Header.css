@@ -1,0 +1,87 @@
+/* Basic reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  /* Header container styling */
+  .header {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    padding: 1rem 2rem;
+    background-color: #282c34; /* Dark background color */
+    color: #ffffff; /* White text color */
+    border-bottom: 2px solid #61dafb; /* Bottom border with accent color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 1.75rem;
+  }
+  
+  .logo a {
+    color: #61dafb; /* Accent color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .logo a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Navigation styling */
+  nav {
+    display: flex; /* Use Flexbox layout for nav */
+  }
+  
+  .nav {
+    list-style: none; /* Remove bullets from list */
+    display: flex; /* Arrange list items in a row */
+    gap: 1.5rem; /* Space between items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 0;
+  }
+  
+  .nav a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Standard font size */
+  }
+  
+  .nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack header items vertically on small screens */
+      align-items: flex-start;
+    }
+  
+    .nav {
+      flex-direction: column; /* Stack nav items vertically */
+      width: 100%; /* Full width for nav */
+    }
+  
+    .nav li {
+      margin: 0.5rem 0; /* Spacing between nav items */
+    }
+  
+    .nav a {
+      font-size: 1.2rem; /* Increase font size for better readability */
+    }
+  }
+  
