@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shabab_Portfolio_Mallick/static/css/main.1096470d.css",
+    "main.js": "/Shabab_Portfolio_Mallick/static/js/main.927c8c04.js",
+    "index.html": "/Shabab_Portfolio_Mallick/index.html",
+    "main.1096470d.css.map": "/Shabab_Portfolio_Mallick/static/css/main.1096470d.css.map",
+    "main.927c8c04.js.map": "/Shabab_Portfolio_Mallick/static/js/main.927c8c04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1096470d.css",
+    "static/js/main.927c8c04.js"
+  ]
+}
